@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Teste</title>
+</head>
+<body>
+    
+<div class="wrapper">
+  <a href="#demo-modal">Cadastrar</a>
+</div>
+
+<div id="demo-modal" class="modal">
+  <div class="content">
+    <h1 class="title">Cadastro</h1>
+
+    <form id="cad-usuario-form">
+      <span id="msgAlertErroCad"></span>
+
+      <div class="cadnome">
+          <label for="cadnome" class="col-form-label">Nome:</label>
+          <input type="text" name="cadnome" class="form-control" id="cadnome" placeholder="Digite o nome completo">
+      </div>
+
+      <div class="cademail">
+          <label for="cademail" class="col-form-label">E-mail:</label>
+          <input type="email" name="cademail" class="form-control" id="cademail" placeholder="Digite o seu melhor e-mail">
+      </div>
+
+      <div class="cadsenha">
+          <label for="cadsenha" class="col-form-label">Senha:</label>
+          <input type="password" name="cadsenha" class="form-control" id="cadsenha" autocomplete="on" placeholder="Digite a senha">
+      </div>
+
+      
+    <div class="footer">
+      <input type="submit" class="footer-btn-sucess" id="cad-usuario-btn" value="Cadastrar">
+    </div>
+  </form>
+
+  
+    <a href="#" class="close">&times;</a>
+  </div>
+</div>
+
+</body>
+</html>
