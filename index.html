@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css" />
     <title>Teste</title>
 </head>
-<body>
+<body style="margin: 0%;">
     
-<div class="wrapper">
+
+  <div class="wrapper">
   <a href="#demo-modal">Cadastrar</a>
 </div>
 
@@ -20,24 +21,28 @@
     <form id="cad-usuario-form">
       <span id="msgAlertErroCad"></span>
 
-      <div class="cadnome">
-          <label for="cadnome" class="col-form-label">Nome:</label>
+      <div>
+          <label for="cadnome" class="labelcad">Nome:</label>
           <input type="text" name="cadnome" class="form-control" id="cadnome" placeholder="Digite o nome completo">
       </div>
 
-      <div class="cademail">
-          <label for="cademail" class="col-form-label">E-mail:</label>
+      <br>
+
+      <div>
+          <label for="cademail" class="labelcad">E-mail:</label>
           <input type="email" name="cademail" class="form-control" id="cademail" placeholder="Digite o seu melhor e-mail">
       </div>
 
-      <div class="cadsenha">
-          <label for="cadsenha" class="col-form-label">Senha:</label>
+      <br>
+
+      <div>
+          <label for="cadsenha" class="labelcad">Senha:</label>
           <input type="password" name="cadsenha" class="form-control" id="cadsenha" autocomplete="on" placeholder="Digite a senha">
       </div>
-
       
     <div class="footer">
       <input type="submit" class="footer-btn-sucess" id="cad-usuario-btn" value="Cadastrar">
+      <p>Já possui uma conta?<a href="#"> Clique aqui.</a></p>
     </div>
   </form>
 
